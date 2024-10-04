@@ -1,0 +1,29 @@
+name: new_pro_com
+description: "A new Flutter project."
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  audioplayers: ^6.1.0
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^2.5.1
+  intl: ^0.19.0
+  mobile_scanner: ^5.2.3
+  open_file: ^3.5.7
+  path_provider: ^2.1.4
+  share_plus: ^10.0.2
+  shared_preferences: ^2.3.2
+
+dev_dependencies:
+  flutter_lints: ^4.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/sounds/beep.mp3
